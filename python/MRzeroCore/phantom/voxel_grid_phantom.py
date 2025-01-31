@@ -192,7 +192,7 @@ class VoxelGridPhantom:
     @classmethod
     def load(cls, file_name: str) -> VoxelGridPhantom:
         """Load a phantom from data produced by `generate_maps.py`."""
-        with np.load(file_name) as data:
+        with np.load(phantom_name, allow_pickle=True) as data:
             T1 = torch.tensor(data['T1_map'])
             T2 = torch.tensor(data['T2_map'])
             T2dash = torch.tensor(data['T2dash_map'])
