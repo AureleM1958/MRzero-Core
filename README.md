@@ -11,7 +11,7 @@ To improve performance, parts of the simulation are written in [Rust](https://ww
 
 Install with pip:
 ```
-pip install MRzeroCore
+pip install MRzeroCoreModif
 ```
 
 The typical way of using it is like the following:

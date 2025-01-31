@@ -3,7 +3,7 @@ requires = ["maturin>=1.5,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "MRzeroCore"
+name = "MRzeroCoreModif"
 description = "Core functionality of MRzero"
 authors = [
     {name = "Jonathan Endres", email = "jonathan.endres@uk-erlangen.de"},
